@@ -5,8 +5,7 @@ Regras da Aplicação:
 • Não será permitido o uso de Bibliotecas e nem Framework como React.js e Node.js.
 
 Requisitos do Sistema: 
-O sistema a ser implementado é um Blog.  Link do Figma: https://www.figma.com/design/cuzj0gnLZdp9czMKNenRa1/Free
-responsive-E-commerce-landing-page-template-Desktop-%26-Mobile-%7Bincludingimage%7D-(Community)?node-id=0-1&p=f&t=W2lEOjr5na6SZRaX-0  
+O sistema a ser implementado é um Blog.  Link do Figma: https://www.figma.com/design/cuzj0gnLZdp9czMKNenRa1/Freeresponsive-E-commerce-landing-page-template-Desktop-%26-Mobile-%7Bincludingimage%7D-(Community)?node-id=0-1&p=f&t=W2lEOjr5na6SZRaX-0  
 
 ✓ O desenvolvimento abrange a criação da tela de Home Page para um blog, com 
 sua respectiva Responsividade.  
