@@ -1,6 +1,7 @@
 # compass_blog_implementation
 
 Regras da Aplicação:
+
 • Tecnologias: HTML, CSS, JS ou TS ;
 • Não será permitido o uso de Bibliotecas e nem Framework como React.js e Node.js.
 
