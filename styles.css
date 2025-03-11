@@ -6,3 +6,61 @@
 * ul {
     list-style-type: none;
 }
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+    margin: 0px 0px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    position: relative;
+    z-index: 1;
+}
+
+.navbar .left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .left ul {
+    margin-right: 10px;
+}
+
+.navbar .left svg {
+    margin-left: 100px;
+}
+
+.navbar .left h3 {
+    margin-left: 10px;
+    margin-right: 30px;
+}
+
+.navbar ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul li {
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar button {
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 100px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.navbar button:hover {
+    background-color: grey;
+}
