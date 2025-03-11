@@ -13,8 +13,10 @@
     justify-content: space-between;
     padding: 10px 10px;
     margin: 0px 0px;
-    background-color: grey;
     color: white;
+    background-color: rgba(0, 0, 0, 0);
+    position: relative;
+    z-index: 1;
 }
 
 .navbar .left {
