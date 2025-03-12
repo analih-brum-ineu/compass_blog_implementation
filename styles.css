@@ -51,8 +51,22 @@
     color: white;
 }
 
+.navbar ul li svg {
+    margin-left: 5px !important;
+    display: inline-block !important;
+    position: static !important;
+}
+
+.navbar ul li:nth-child(1),
+.navbar ul li:nth-child(2) {
+    display: iline-block;
+    position: static;
+    margin-left: 5px;
+    z-index: 2;
+}
+
 .navbar button {
-    color: #4C516D;
+    color: #101828;
     border: none;
     padding: 10px 20px;
     margin-right: 100px;
@@ -129,9 +143,109 @@ article, body, html {
     font-size: 50px;
     line-height: 1;
     margin-bottom: 0px;
+    font-weight: normal;
 }
 
 .smallherotext {
     font-size: 13px;
+    margin-top: 20px;
+}
+
+.shoppaws, #shop h2 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    vertical-align: middle;
+    font-weight: normal;
+}
+
+.shoppaws {
+    width: 50px;
+}
+
+.shopleft {
+    margin-left: 100px;
+    margin-top: 50px;
+    padding-bottom: 0px;
+    margin-bottom: -10px;
+}
+
+#shop hr {
+    color: lightgray;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    opacity: 0.5;
+}
+
+.shopborder {
+    border: 1px solid lightgray;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 2px;
+    padding: 15px 20px;
+    margin-top: -10px;
+}
+
+.shopfirstline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.shopborder h3 {
+    margin: 0;
+    font-weight: bolder;
+}
+
+.search {
+    position: relative;
+    display: inline-block;
+}
+
+.search svg {
+    position: absolute;
+    left: 15px;
+    top: -15px;
+    width: 20px;
+    height: 20px;
+    pointer-events: none;
+}
+
+.shopborder input {
+    padding: 8px 12px 8px 40px;
+    border: none;
+    background-color: lightgrey;
+    border-radius: 30px;
+    width: 200px;
+    font-weight: bold;
+    color: lightgray;
+    opacity: 0.5;
+}
+
+#shop ul li {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    text-decoration: none;
+    color: #101828;
+    opacity: 70%;
+    margin-right: 20px;
+}
+
+#shop ul {
+    display: flex;
+    justify-content: center;
+}
+
+.viewmore {
+    text-decoration: none;
+    color: #101828;
+    font-weight: bold;
+    display: block;
+    text-align: right;
     margin-top: 20px;
 }
