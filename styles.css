@@ -1,6 +1,5 @@
 * {
     font-family: 'Montserrat', sans-serif;
-    font-weight: bolder;
 }
 
 * ul {
@@ -53,14 +52,86 @@
 }
 
 .navbar button {
-    color: black;
+    color: #4C516D;
     border: none;
     padding: 10px 20px;
     margin-right: 100px;
     cursor: pointer;
     border-radius: 20px;
+    font-weight: bold;
+    border: 0.5px solid white;
 }
 
 .navbar button:hover {
-    background-color: grey;
+    background-color: rgba(197, 197, 197, 0.167);
+    color: white;
+}
+
+article, body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.goldenbackground {
+    position: relative;
+    background-image: url(https://s3-alpha-sig.figma.com/img/a5fc/bde5/258262f42e8d47435151dd5e6c7fc8ba?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=sUbyaK3ZeHfFUJSf-UwdQbZYSvw7gDjU3YiF-MJZqisIb~gjWVT3~1svBlIO2sx8kf9zSZUcXt0cDIf9DTQDMjup2iMepJxjLoZp79CTBtKiFUDQRBzjmcMHgm~sbsy4GSsdmfUbQhiiAyE5XFsgt-hz4kDR9mXFmZmNKtfz43HF5hbVjcUkcdv1otJcC4XsAlchpxMd6LymUfOxmG9clqJnNR6iGEZAi78hHIlJUb7OtYclUpk8TVcQTqukMmDYPqZZLSzl~Cj6PoZZ0XeROWbNDS7K4Dz75bOn-~xC2YRrUe1NvVbYtxxij4s9SnAexh-63vf825reIo7CJuN33A__);
+    background-size: 121%;
+    background-position: left center;
+    background-position-y: -100px;
+    background-repeat: no-repeat;
+    color: white;
+    min-height: 100vh;
+    width: 100%;
+    margin: 0 0;
+    padding: 0 0;
+}
+
+#hero {
+    margin-left: 100px;
+    margin-top: 150px;
+}
+
+#hero button {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: 0.5px solid white;
+    padding: 12px 30px;
+    border-radius: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#hero button a {
+    text-decoration: none;
+    color: white;
+}
+
+#hero button a:visited {
+    color: white;
+}
+
+#hero button svg {
+    margin-left: 10px;
+}
+
+#hero button:hover {
+    background-color: rgba(197, 197, 197, 0.167);
+}
+
+.heroslogan {
+    font-size: 50px;
+    line-height: 1;
+    margin-bottom: 0px;
+}
+
+.smallherotext {
+    font-size: 13px;
+    margin-top: 20px;
 }
