@@ -151,7 +151,7 @@ article, body, html {
     margin-top: 20px;
 }
 
-.shoppaws, #shop h2 {
+.shopleft svg, .shopleft h2 {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -160,7 +160,7 @@ article, body, html {
     font-weight: normal;
 }
 
-.shoppaws {
+.shopleft svg {
     width: 50px;
 }
 
@@ -248,4 +248,160 @@ article, body, html {
     display: block;
     text-align: right;
     margin-top: 20px;
+}
+
+footer {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#101828), to(#233250));
+    background-image: linear-gradient(#101828, #233250);
+    color: white;
+    padding: 40px 0;
+    margin-top: 50px;
+}
+
+footer h3, footer p, footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: #cccccc;
+}
+
+.contactleft svg, .contactleft h2 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    vertical-align: middle;
+    font-weight: normal;
+    margin-right: 10px;
+}
+
+.contactleft svg {
+    width: 20px;
+
+}
+
+.contactleft {
+    margin-left: 100px;
+    margin-top: 10px;
+    padding-bottom: 0px;
+    margin-bottom: -10px;
+}
+
+#contact hr {
+    color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+    opacity: 0.5;
+}
+
+footer address form {
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 10px 100px;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+footer address form .inline {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+}
+
+footer address form .inline p {
+    width: 50%;
+    margin: 0;
+}
+
+footer address form .inline input {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+footer address form label {
+    color: #667085;
+    font-size: 12px;
+    margin-bottom: 4px;
+    display: inline-block;
+}
+
+label .b {
+    font-weight: bold;
+}
+
+footer address form .emailnmessagepp {
+    width: 100%;
+}
+
+footer address form textarea {
+    width: 100%;
+    height: 150px;
+    resize: vertical;
+    box-sizing: border-box;
+}
+
+footer address form input, 
+footer address form textarea {
+    background-color: white;
+    color: #101828;
+    border: 1px solid #d0d5dd;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 0px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+footer address form button {
+    background-image: -webkit-gradient(linear, left right, from(#101828), to(#233250));
+    background-image: linear-gradient(#101828, #233250);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%; 
+    margin-top: 10px;
+}
+
+.contactright, .contactleft {
+    display: inline-block;
+    position: sticky;
+}
+
+footer address form .checkbox {
+    border: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 0;
+    width: 100%;
+    font-weight: normal;
+}
+
+footer address form .checkbox input {
+    width: auto;
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+
+footer address form .checkbox label {
+    display: inline;
+    margin-bottom: 0;
+    font-size: 15px;
+}
+
+footer address form .checkbox label a {
+    color: #667085;
+}
+
+.black {
+    color: #101828;
+    font-weight: 500;
 }
